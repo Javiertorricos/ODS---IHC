@@ -1,0 +1,11 @@
+{
+  "name": "proyecto-biblioteca",
+  "private": true,
+  "description": "Biblioteca para Estudiantes: backend (JSON Server) + frontend (React)",
+  "scripts": {
+    "instalar": "npm --prefix backend install && npm --prefix frontend install",
+    "api": "npm --prefix backend start",
+    "web": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  }
+}

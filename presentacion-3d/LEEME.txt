@@ -1,0 +1,8 @@
+PRESENTACION 3D - Biblioteca para Estudiantes
+Recorrido en 3D hasta la biblioteca de la universidad; se avanza con el scroll del mouse.
+
+Windows: doble clic en iniciar.bat
+Linux / macOS: ./iniciar.sh
+Se abre http://localhost:8080. Para detener: cierra la ventana negra (Windows) o Ctrl+C (Linux).
+Sin Python ni Node: abre index.html con doble clic (Chrome o Edge).
+Funciona sin internet (Three.js y GSAP estan en lib/); solo las tipografias usan internet.
