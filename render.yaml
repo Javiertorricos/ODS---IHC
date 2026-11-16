@@ -1,0 +1,15 @@
+# Publica la API (carpeta biblioteca/backend/) en Render. Después pega su URL en Netlify como VITE_API_URL.
+services:
+  - type: web
+    name: biblioteca-api
+    runtime: node
+    rootDir: biblioteca/backend
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /salud
+    plan: free
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+      - key: MAX_MB
+        value: 50
